@@ -1,6 +1,6 @@
 from ._anvil_designer import Form1Template
 from anvil import *
-
+import anvil.server
 class Form1(Form1Template):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
@@ -12,3 +12,4 @@ class Form1(Form1Template):
     """This method is called when the button is clicked"""
     pass
 
+self.image_1.source = anvil.server.call('takepic')
