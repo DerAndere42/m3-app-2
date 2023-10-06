@@ -3,6 +3,8 @@ unique_ids:
     Form1: 5HIHB64RDDQMQ6Q5XW2WPQLJJPRUBZB4
   modules: {}
   server_modules:
+    Camera_controller.ServerPackage1: '1696573374316822136568624.0037'
+    Camera_controller: '1696573244031304725906188.2781'
     ServerModule1: '1696505208970274393874177.63684'
   assets:
     standard-page.html: C3O2N73SE7LWFLISIE6FQ6XZGB4SUINV
